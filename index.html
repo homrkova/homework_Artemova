@@ -6,6 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="style.css" type = "text/css"/>
 </head>
+<style>
+main { /* основное содержимое */
+  position: relative; /* боковая колонка перемещается в рамках основного содержания */
+  margin: 0 auto; /* сайт располагается по центру экрана */
+  max-width: 1200px; /* резиновая, растягивается до значения в 1200px */
+  padding-right: 310px; /* = боковая колонка + отступ в 10px */
+}
+aside { /* боковая колонка */
+  width: 300px; /* фиксированная, не меняется с изменением размера окна браузера */
+  position: absolute; top: 0; right: 0; /* прижата к верхнему правому углу */
+}
+</style>
 
 <body>
 
