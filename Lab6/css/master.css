@@ -165,7 +165,7 @@
   color: #564042; /*Цвет*/
   animation-name: animation; 
   animation-duration: 1s; 
-  animation-timing-function: ease;    
+  animation-play-state: unset;    
 
 }
 @keyframes animation{
