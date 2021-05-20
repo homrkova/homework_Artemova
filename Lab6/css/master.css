@@ -161,7 +161,7 @@
 
 
 /* Анимация */
-.animation{
+.active{
   color: #564042; /*Цвет*/
   animation-name: animation; 
   animation-duration: 1s; 
