@@ -90,12 +90,12 @@ function makeMove(event) {
     if (currentPlayer() === 'X') {
       cellToAddToken.textContent = currentPlayer();
   //Анимация для Х
-	  cellToAddToken.classList.add('animation'); 
+	  cellToAddToken.classList.add('active'); 
       gameBoard[currentCell] = 'X';
     } else {
       cellToAddToken.textContent = currentPlayer();
   //Анимация для О
-	  cellToAddToken.classList.add('animation');
+	  cellToAddToken.classList.add('active');
       gameBoard[currentCell] = 'O';
     }
   }
