@@ -1,0 +1,61 @@
+.wall {
+			width: 30px;
+			height: 30px;
+			background-image: url('wall.png');
+			display: inline-block;
+		}
+.coin {
+			width: 30px;
+			height: 30px;
+			background-image: url('4.png');
+			display: inline-block;
+		}
+.ground {
+			width: 30px;
+			height: 30px;
+			background-image: url('bg.png');
+			background: black;
+			display: inline-block;
+		}
+.ghost1 {
+			width: 30px;
+			height: 30px;
+			background-image: url('2.png');
+			background-color: black;
+			display: inline-block;
+		}
+.pacman {
+			width: 30px;
+			height: 30px;
+			background-image: url('pacman.png');
+			background-color: black;
+			display: inline-block;
+		}
+.ghost2 {
+			width: 30px;
+			height: 30px;
+			background-image: url('1.png');
+			background-color: black;
+			display: inline-block;
+		}
+.ghost3 {
+			width: 30px;
+			height: 30px;
+			background-image: url('3.png');
+			background-color: black;
+			display: inline-block;
+		}
+.button {
+  /*background-image: url("../github2.png");*/
+  margin: 5px;
+  border: 2px;
+  border-radius: 2px;
+  padding: 10px 20px;
+  background-color: #f5deb3;
+  border: 2px solid #712f26;
+  z-index: 0;
+  text-align: left;
+  cursor: pointer;
+  color: #45161c;
+  font-size: 17px;
+  }
